@@ -14,3 +14,22 @@ body {
 }
 a { text-decoration: none; color: inherit; transition: 0.3s; }
 ul { list-style: none; }
+/* BOTONES */
+.btn { display: inline-block; padding: 12px 30px; border-radius: 5px; cursor: pointer; border: none; }
+.btn-primary { background: var(--color-accent); color: white; }
+.btn-outline { border: 1px solid var(--color-accent); color: var(--color-accent); width: 100%; text-align: center; }
+
+/* NAVBAR */
+.navbar-wrapper { position: fixed; top: 20px; width: 100%; z-index: 1000; display: flex; justify-content: center; }
+.navbar { background: white; width: 100%; max-width: 1200px; padding: 0 30px; border-radius: 50px; display: flex; justify-content: space-between; align-items: center; }
+
+/* HERO */
+.hero { height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; background-image: url('https://images.unsplash.com/photo-1569263979104-865ab7dd8d36?q=80&w=2070'); background-size: cover; }
+.hero-content { position: relative; z-index: 1; text-align: center; color: white; }
+
+/* GRID FLOTA */
+.container { max-width: 1200px; margin: 0 auto; padding: 80px 20px; }
+.grid-flota { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+.card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+.card-img { height: 200px; background-size: cover; position: relative; }
+
