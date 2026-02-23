@@ -284,3 +284,25 @@ footer { background: var(--color-primary); color: white; padding-top: 60px; }
     .hero-content h1 { font-size: 2.5rem; }
     .navbar { padding: 0 20px; }
 }
+/* ===== HERO CON IMAGEN LOCAL ===== */
+.hero {
+    background-image: url('../img/DJI_0039-scaled-1.webp');
+}
+
+/* ===== IMÁGENES FLOTA LOCALES ===== */
+
+.grid-flota .card:nth-child(1) .card-img {
+    background-image: url('../img/De antonio 36 - Jarcvis_1.jpg');
+}
+
+.grid-flota .card:nth-child(2) .card-img {
+    background-image: url('../img/De Antonio 42_1.jpg');
+}
+
+.grid-flota .card:nth-child(3) .card-img {
+    background-image: url(/img/JAGUAR\ 72_1.jpg);
+}
+
+.grid-flota .card:nth-child(4) .card-img {
+    background-image: url('../img/Pershing 54_2.jpg');
+}
