@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Eyes Charter - Ibiza</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="navbar-wrapper">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-water"></i>
+                <div class="logo-text">
+                    Blue Eyes Charter<br>
+                    <small>IBIZA & BALEARES</small>
+                </div>
+            </div>
+
+            <input type="checkbox" id="nav-check">
+
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#flota">Flota</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+                <div class="lang-selector">
+                    <span class="active">ES</span> GB FR IT
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <header class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Alquila tu experiencia en Ibiza</h1>
+            <p>Descubre nuestra flota exclusiva de barcos de alto nivel. Vive momentos inolvidables navegando por las
+                aguas más hermosas.</p>
+            <a href="#flota" class="btn btn-primary">Ver Flota</a>
+        </div>
+    </header>
+
+    <section id="flota" class="container">
+        <div class="section-header">
+            <h2>Nuestra Flota Exclusiva</h2>
+            <p>Selección de los mejores yates y lanchas para tu disfrute</p>
+        </div>
+
+        <div class="grid-flota">
+            <article class="card">
+                <div class="card-img">
+                    <span class="badge">Lancha</span>
+                </div>
+                <div class="card-body">
+                    <h3>Chaparral 256 SSX</h3>
+                    <div class="specs">
+                        <span><i class="fa-solid fa-ruler-horizontal"></i> 8m</span>
+                        <span><i class="fa-solid fa-user-group"></i> 9 + 1</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Ver Detalles</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-img">
+                    <span class="badge">Semirrígida</span>
+                </div>
+                <div class="card-body">
+                    <h3>Tempest 750 Luxe</h3>
+                    <div class="specs">
+                        <span><i class="fa-solid fa-ruler-horizontal"></i> 8m</span>
+                        <span><i class="fa-solid fa-user-group"></i> 12 + 1</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Ver Detalles</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-img">
+                    <span class="badge">Yate</span>
+                </div>
+                <div class="card-body">
+                    <h3>Jaguar 72</h3>
+                    <div class="specs">
+                        <span><i class="fa-solid fa-ruler-horizontal"></i> 23m</span>
+                        <span><i class="fa-solid fa-user-group"></i> 12 + 2</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Ver Detalles</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-img">
+                    <span class="badge">Deportivo</span>
+                </div>
+                <div class="card-body">
+                    <h3>Pershing 54</h3>
+                    <div class="specs">
+                        <span><i class="fa-solid fa-ruler-horizontal"></i> 18m</span>
+                        <span><i class="fa-solid fa-user-group"></i> 12 + 1</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Ver Detalles</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contacto" class="bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contáctanos</h2>
+                <p>Estamos listos para planear tu viaje perfecto</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Información</h3>
+                    <p>Experiencias náuticas exclusivas en las cristalinas aguas de Ibiza y Formentera.</p>
+                    <ul class="contact-list">
+                        <li><i class="fa-solid fa-location-dot"></i> Puerto de Marina Botafoch, Ibiza</li>
+                        <li><i class="fa-solid fa-phone"></i> +34 600 00 00 00h</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@blueeyescharter.com</li>
+                    </ul>
+                </div>
+
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="tucorreo@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Mensaje</label>
+                        <textarea rows="4" placeholder="¿En qué barco estás interesado?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Blue Eyes Charter</h4>
+                <p>Tu viaje de ensueño comienza aquí.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#flota">Flota</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Blue Eyes Charter.
+        </div>
+    </footer>
+
+    <a href="https://wa.me/34600000000" class="whatsapp-btn" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+
+</html>
